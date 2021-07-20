@@ -50,6 +50,17 @@
             </intent-filter>
         </service>
 
+	<service
+            android:name="org.lineageos.settings.device.LogTile"
+            android:icon="@drawable/ic_qs_log"
+            android:label="@string/quick_settings_log_tile_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action
+                    android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".DozeSettingsActivity"
             android:label="@string/ambient_display_title"
@@ -99,7 +110,6 @@
             android:label="@string/screen_off_gestures_title"
             android:theme="@style/LineageActions">
         </activity>
-
-    </application>
+       </application>
 
 </manifest>

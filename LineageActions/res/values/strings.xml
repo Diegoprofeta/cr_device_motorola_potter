@@ -18,17 +18,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title and summary -->
     <string name="moto_actions_title">Moto Actions</string>
+    <string name="moto_actions_summary">Manage device gestures</string>
+    <string name="actions_header_title">Make your life easy with MotoActions</string>
 
     <!-- Device gestures -->
     <string name="device_gestures_title">Device gestures</string>
-    <string name="device_gestures_summary">Manage device gestures</string>
+    <string name="device_gesturess_summary">Manage device gestures</string>
+    <string name="gesture_header_summery">Control your phone with simple gesture</string>
 
     <!-- Ambient display gestures -->
     <string name="ambient_display_manage_summary">Manage ambient display gestures</string>
+    <string name="doze_header_summery">Never miss a notification even if your screen is off</string>
 
     <!-- Fingerprint gestures -->
     <string name="fingerprint_gestures_title">Fingerprint gestures</string>
     <string name="fingerprint_gestures_summary">Use fingerprint gestures</string>
+    <string name="fingerprint_header_summery">Use your finger to do things you never imagined</string>
     <string name="fingerprint_gestures_manage_summary">Manage fingerprint gestures</string>
     <string name="fingerprint_actions_screenon">Actions with screen on</string>
     <string name="fingerprint_tap_title">Single tap</string>
@@ -72,6 +77,7 @@
     <!-- Screen off gestures -->
     <string name="screen_off_gestures_title">Screen off gestures</string>
     <string name="screen_off_gestures_manage_summary">Manage gestures when screen is off</string>
+    <string name="screen_off_header_summery">Fast access to your moto even if screen is off</string>
     <string name="screen_off_gestures_swipe_left_title">Swipe left</string>
     <string name="screen_off_gestures_swipe_left_dlg_title">Select action for swipe left</string>
     <string name="screen_off_gestures_swipe_right_title">Swipe right</string>
@@ -89,8 +95,12 @@
    <string name="haptic_feedback">Haptic feedback</string>
    <string name="haptic_feedback_summary">Vibrate when a touchscreen gesture is detected</string>
    
-   <!-- Proximity sensor -->
-   <string name="allow_proximity_sensor_title">Allow proximity sensor</string>
-   <string name="allow_proximity_sensor_summary">Check the proximity sensor before performing the action</string>
-
+    <!-- Headers -->
+    <string name="displayheader">Display</string>
+    <string name="gesturesheader">Gestures</string>
+    
+    <!-- Log Tile -->
+    <string name="quick_settings_log_tile_label">LogTile</string>
+    <string name="quick_settings_log_tile_dialog_title">Options</string>
+    <string name="cannot_get_su">Action failed because of missing superuser access</string>
 </resources>
